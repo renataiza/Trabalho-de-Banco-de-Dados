@@ -1,0 +1,17 @@
+import mysql.connector
+
+db = mysql.connector.connect(host="127.0.0.1", user = "root", password = "ifce", database = "login")
+cursor = db.cursor()
+
+cursor.execute("INSERT INTO `TrabalhoBD`.`Clientes` (`Nome`) VALUES ('Ana')")
+cursor.execute("INSERT INTO `TrabalhoBD`.`Clientes` (`Nome`) VALUES ('Joaquim')")
+cursor.execute("INSERT INTO `TrabalhoBD`.`Clientes` (`Nome`) VALUES ('Maria')")
+cursor.execute("INSERT INTO `TrabalhoBD`.`Clientes` (`Nome`) VALUES ('José')")
+cursor.execute("INSERT INTO `TrabalhoBD`.`Clientes` (`Nome`) VALUES ('João')")
+cursor.execute("INSERT INTO `TrabalhoBD`.`Clientes` (`Nome`) VALUES ('Cícero')")
+
+cursor.execute("select ID, Nome FROM Clientes")
+for i, n in cursor.fetchall():
+    print("ID = %d\tNome = %s"%(i,n))
+
+db.close()

@@ -1,0 +1,21 @@
+INSERT INTO `TrabalhoBD`.`Clientes` (`Nome`) VALUES ('Ana');
+INSERT INTO `TrabalhoBD`.`Clientes` (`Nome`) VALUES ('Joaquim');
+INSERT INTO `TrabalhoBD`.`Clientes` (`Nome`) VALUES ('Maria');
+INSERT INTO `TrabalhoBD`.`Clientes` (`Nome`) VALUES ('José');
+INSERT INTO `TrabalhoBD`.`Clientes` (`Nome`) VALUES ('João');
+INSERT INTO `TrabalhoBD`.`Clientes` (`Nome`) VALUES ('Cícero');
+
+INSERT INTO `TrabalhoBD`.`Produtos` (`Nome`, `Preco`) VALUES ('Calça Azul', '100.00');
+INSERT INTO `TrabalhoBD`.`Produtos` (`Nome`, `Preco`) VALUES ('Saia Rosa', '30.00');
+INSERT INTO `TrabalhoBD`.`Produtos` (`Nome`, `Preco`) VALUES ('Jardineira Bege', '120.00');
+INSERT INTO `TrabalhoBD`.`Produtos` (`Nome`, `Preco`) VALUES ('Saia Verde', '30.00');
+INSERT INTO `TrabalhoBD`.`Produtos` (`Nome`, `Preco`) VALUES ('Blusa Amarela', '25.00');
+INSERT INTO `TrabalhoBD`.`Produtos` (`Nome`, `Preco`) VALUES ('Sapato Social', '100.00');
+INSERT INTO `TrabalhoBD`.`Produtos` (`Nome`, `Preco`) VALUES ('Sandália Casual', '90.00');
+INSERT INTO `TrabalhoBD`.`Produtos` (`Nome`, `Preco`) VALUES ('Regata Masculina Verde', '30.00');
+INSERT INTO `TrabalhoBD`.`Produtos` (`Nome`, `Preco`) VALUES ('Regata Masculina Estampada', '30.00');
+INSERT INTO `TrabalhoBD`.`Produtos` (`Nome`, `Preco`) VALUES ('Sapato Casual ', '120.00');
+INSERT INTO `TrabalhoBD`.`Produtos` (`Nome`, `Preco`) VALUES ('Regata Feminina Azul', '25.00');
+INSERT INTO `TrabalhoBD`.`Produtos` (`Nome`, `Preco`) VALUES ('Regata Feminina Estampada', '25.00');
+
+INSERT INTO `TrabalhoBD`.`Vendas` (`ClieteID`, `Data`) VALUES ('6', '118/06/2018');
